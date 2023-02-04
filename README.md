@@ -44,16 +44,8 @@ To install:
 
 
 Commands to run at the root of your project:
-<!-- 
-```mysql -u root -p ```
 
-```SOURCE db/schema.sql; ```
 
-```exit ```
-
-```npm run seed ```
-
-```npm start``` -->
 
 
 ### Technology used:
