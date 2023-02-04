@@ -38,14 +38,8 @@ To install:
 
 ```npm install dotenv ```
 
-```````
-
-
-
 
 Commands to run at the root of your project:
-
-
 
 
 ### Technology used:
@@ -55,6 +49,8 @@ Commands to run at the root of your project:
 [![Heroku]
 
 [![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=ffffff)](https://insomnia.rest/) 
+
+
 
 
 npm packages:
