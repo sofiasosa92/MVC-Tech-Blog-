@@ -16,13 +16,16 @@ const SequelizeStore = require('connect-session-sequelize')(session.Store);
 //Handlebars helpers
 const helpers = require('./utils/helpers');
 
+//Start the server
+const app = express();
+//Set the port for server
+const PORT = process.env.PORT || 3001;
 
-const hbs = exphbs.create({ helpers });
 
 //Start sessions
 const sess = {
-    // secret: process.env.,
-    // cookie: {},
+    secret: 'Super secret',
+    cookie: {},
     resave: false,
     saveUninitialized: true,
     store: new SequelizeStore({
@@ -30,25 +33,25 @@ const sess = {
     })
   };
 
-//Start the server
-const app = express();
-//Set the port for server
-const PORT = process.env.PORT || 3001;
+  //Use sessions
+    app.use(session(sess));
+
+  const hbs = exphbs.create({ helpers });
 
 
 //Handlebars engine for server
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
+//Set the views folder
+app.set('views', path.join(__dirname, 'views'));
 
 //Express parsing for JSON and URL encoded data
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-
+app.use(express.urlencoded({ extended: true }));
 //Serve static files
 app.use(express.static(path.join(__dirname, 'public')));
 
-//Use sessions
-app.use(session(sess));
+
 
 //path to use routes
 app.use(routes);
