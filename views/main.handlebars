@@ -1,32 +1,39 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Blog</title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="/assets/style.css">
 </head>
+
 <body>
-    <header id="navheader" class="text-white">
-        <section></section>
-            <h1>Tech Blog</h1>
-        <!-- {{#if loggedIn}} -->
-            <a href="/">Home</a>
-            <a href="/dashboard">Dashboard</a>
-            <a href="/api/users/logout">Logout</a>
-        <!-- {{else}} -->
-            <a href="/">Home</a>
-            <a href="/dashboard">Dashboard</a>
-            <a href="/login">Login</a>
-        <!-- {{/if}}   -->
-    
-    </header>
-    <main>
-        <!-- {{{body}}} -->
+    <div class="home">
+        <header>
+            <h1>
+                <a href="/">Home</a>
+            </h1>
+            <nav>
+                {{#if loggedIn}}
+                <a href="/">Dashboard</a>
+                <button id="logout" class="btn-no-style logout">Logout</button>
+                {{else}}
+                <a href="/">Login</a>
+                {{/if}}
+            </nav>
+        </header>
+        <main>
+        {{{ body }}}
     </main>
+    <footer>
+        Welcome to Tech Blog image.png
+    </footer>
+    </div>
+
+    {{#if loggedIn}}
+    <script src="/"></script>
+    {{/if}}
 </body>
+
 </html>
