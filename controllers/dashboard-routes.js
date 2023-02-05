@@ -3,7 +3,6 @@ const sequelize = require('../config/connection');
 
 const { User, Post, Comment } = require('../models');
 
-
 const withAuth = require('../utils/auth');
 
 // get all users
@@ -44,6 +43,7 @@ router.get('/', withAuth, (req, res) => {
         });
 });
 
+
 //Edit a post by ID
 router.get('/edit/:id', withAuth, (req, res) => {
     Post.findOne({
@@ -71,6 +71,7 @@ router.get('/edit/:id', withAuth, (req, res) => {
             }
         ]
     })
+
 // If no post is found, return an error message
         .then(dbPostData => {
             if (!dbPostData) {
@@ -78,7 +79,8 @@ router.get('/edit/:id', withAuth, (req, res) => {
                 return;
             }
 
-// serialize the data
+
+// serialize the data/ send to template
             const post = dbPostData.get({ plain: true });
             res.render('edit-post', { post, loggedIn: true });
         })
