@@ -1,4 +1,5 @@
 //add comment function
+
 async function addComment(event) {
     event.preventDefault();
 
@@ -27,3 +28,6 @@ async function addComment(event) {
         }
     }
 }
+
+document.querySelector('.comment-form').addEventListener('submit', addComment);
+
