@@ -1,40 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Blog</title>
+
+    <!--Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>MVC Tech Blog</title>
     <link rel="stylesheet" href="/public/css/style.css">
 </head>
 
-<body>
-    <div class="home">
-        <header>
-            <h1>
-                <a href="/">MVC Tech Blog</a>
-            </h1>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"> One Stop Devs</a>
             <nav>
-                <span><a href="/">home</a></span> 
-                {{#if loggedIn}}
-                <a href="/dashboard">Dashboard</a>
-                <button id="logout" class="btn-no-style logout">Logout</button>
-                {{else}}
-                <a href="/login">Login</a>
-                {{/if}}
-            </nav>
-        </header>
-        <main>
-        {{{ body }}}
+        <a href="/">Home</a>
+        {{#if loggedIn}}
+        <button type="button" class="btn btn-secondary btn-sm" href="/logout">Logout</button>
+        {{else}}
+        <button type="button" class="btn btn-secondary btn-sm" href="/login">Login</button>
+        {{/if}}
+    </nav>
+    
+        </div>
+    </nav>
+
+    <header>
+        <h1>Welcome to the blog!</h1>
+    </header>
+    <!--login logout button-->
+    
+
+    <!--main content-->
+    <main>
+        <div class="posts">
+            {{{body}}}
+        </div>
     </main>
-    <footer>
-        Welcome to Tech Blog
-    </footer>
-    </div>
 
     {{#if loggedIn}}
-    <script src="/"></script>
+    <script src="./public/js/logout.js"></script>
     {{/if}}
 </body>
-
+<footer>
+    Thanks for visiting One Stop Devs!
+</footer>
 </html>
