@@ -20,9 +20,11 @@
             <nav>
         <a href="/">Home</a>
         {{#if loggedIn}}
-        <button type="button" class="btn btn-secondary btn-sm" href="/logout">Logout</button>
+        <button type="button" class="btn btn-secondary btn-sm" id="logout">Logout</button>
+        <script src="/js/logout.js"></script>
         {{else}}
-        <button type="button" class="btn btn-secondary btn-sm" href="/login">Login</button>
+        <a type="button" class="btn btn-secondary btn-sm" href="/login">Login</a>
+        <a type="button" class="btn btn-secondary btn-sm" href="/signup">SignUp</a>
         {{/if}}
     </nav>
     
