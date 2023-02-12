@@ -1,29 +1,50 @@
 
 
-<section>
-    <div class="row mb-4 project">
-        <div class="col-md-5">
-            <h2>
-                <button type="submit" class="btn" id="create-new-post">Create New Post</button>
-            </h2>
-        </div>
+
+<section class="new-post-section">
+<a href="/dashboard/new"><button type="button" class="btn btn-secondary btn-md" id="new-post">Add Post</button></a>
 </section>
 
-{{#if post.length}}
+<h2>Dashboard</h2>
+
+<h3>Your Posts:</h3>
+
+{{#if posts.length}}
 
 <section>
-    <h2>Dashboard</h2>
-    <ul>
+    <ul class="post-list">
         {{#each posts as |post|}}
         <li>
-            {{> dashboard-postinfo post}}
-            <a href="/dashboard/edit/{{post.id}}" class="edit">Edit Post</a>
+            {{> post-info post}}
+            <a href="/dashboard/edit/{{post.id}}" class="edit-link">edit post</a>
         </li>
         {{/each}}
     </ul>
 </section>
-    {{/if}}
 
+{{/if}}
+
+<script src="/js/create-post.js"></script>
+
+
+
+{{!-- 
+<h2 class="title pb-4">Dashboard</h2>
+<h3>Your Posts:</h3>
+    
+
+{{#if posts.length}}
 </div>
+
+    {{#each posts as |post|}}
+    {{> post-info post}}
+
+    <a href="/dashboard/edit/{{post.id}}"><button class="button mb-5 ml-5">edit post</button></a>
 </div>
-<script src="./js/add-post.js"></script>
+{{/each}}
+
+{{else}}
+
+<h5 class="pb-4 has-text-centered">You currently dont have any post!</h5>
+
+{{/if}} --}}

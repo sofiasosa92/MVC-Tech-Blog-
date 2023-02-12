@@ -14,35 +14,37 @@
 </head>
 
 <body class="bg-light">
+   
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/"> One Stop Devs</a>
+            <a class="navbar-brand" href="/"> <h1>One Stop Devs</h1></a>
+             <header>
+        <h5>Welcome to the blog!</h5>
+    </header>
             <nav>
+                
+                <a type="button" class="btn btn-secondary btn-md" href="/">Home</a>
+
                 {{#if loggedIn}}
 
-                <button type="button" class="btn btn-secondary btn-sm" href="/">Home</a>
+                <a type="button" class="btn btn-secondary btn-md" href="/dashboard">Dashboard</a>
 
-                <button type="button" class="btn btn-secondary btn-sm" href="/dashboard">Dashboard</a>
 
-                <button type="button" class="btn btn-secondary btn-sm" href="/dashboard/create">New Post</a>
-
-                  <button type="button" class="btn btn-secondary btn-sm" id="logout">Logout</button>
-                <script src="/js/logout.js"></script>
+                 <a type="button" class="btn btn-secondary btn-md" id="logout">Logout</a>
 
                 {{else}}
 
-                <a type="button" class="btn btn-secondary btn-sm" href="/login">Login</a>
+                <a type="button" class="btn btn-secondary btn-md" href="/login">Login</a>
                 
-                <a type="button" class="btn btn-secondary btn-sm" href="/signup">SignUp</a>
+                <a type="button" class="btn btn-secondary btn-md" href="/signup">SignUp</a>
                 {{/if}}
             </nav>
 
         </div>
     </nav>
 
-    <header>
-        <h1>Welcome to the blog!</h1>
-    </header>
+    
 
     <!--main content-->
     <main>
@@ -52,7 +54,8 @@
     </main>
 
     {{#if loggedIn}}
-    <script src="./public/js/logout.js"></script>
+
+    <script src="./js/logout.js"></script>
     {{/if}}
 </body>
 
