@@ -1,0 +1,22 @@
+<div class="new-post"></div>
+<section>
+    <div class="row mb-4 project">
+        <div class="col-md-5">
+            <h2>Create New Post</h2>
+        </div>
+    </div>
+
+    <div class="row mb-4 project">
+        <form action="/api/posts" method="POST">
+            <div class="col-md-5">
+
+                <label for="title">{{post.title}}</label>
+                <input type="text" id="title" name="post-title" />
+
+                <label for="content">{{post.content}}</label>
+                <textarea id="content" name="post-content"></textarea>
+                <button type="create-post">Create</button>
+            </div>
+        </form>
+    </div>
+</section>

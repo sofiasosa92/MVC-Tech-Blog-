@@ -1,0 +1,29 @@
+
+
+<section>
+    <div class="row mb-4 project">
+        <div class="col-md-5">
+            <h2>
+                <button type="submit" class="btn" id="create-new-post">Create New Post</button>
+            </h2>
+        </div>
+</section>
+
+{{#if post.length}}
+
+<section>
+    <h2>Dashboard</h2>
+    <ul>
+        {{#each posts as |post|}}
+        <li>
+            {{> dashboard-postinfo post}}
+            <a href="/dashboard/edit/{{post.id}}" class="edit">Edit Post</a>
+        </li>
+        {{/each}}
+    </ul>
+</section>
+    {{/if}}
+
+</div>
+</div>
+<script src="./js/add-post.js"></script>

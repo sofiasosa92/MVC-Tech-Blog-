@@ -18,24 +18,31 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="/"> One Stop Devs</a>
             <nav>
-        <a href="/">Home</a>
-        {{#if loggedIn}}
-        <button type="button" class="btn btn-secondary btn-sm" id="logout">Logout</button>
-        <script src="/js/logout.js"></script>
-        {{else}}
-        <a type="button" class="btn btn-secondary btn-sm" href="/login">Login</a>
-        <a type="button" class="btn btn-secondary btn-sm" href="/signup">SignUp</a>
-        {{/if}}
-    </nav>
-    
+                {{#if loggedIn}}
+
+                <button type="button" class="btn btn-secondary btn-sm" href="/">Home</a>
+
+                <button type="button" class="btn btn-secondary btn-sm" href="/dashboard">Dashboard</a>
+
+                <button type="button" class="btn btn-secondary btn-sm" href="/dashboard/create">New Post</a>
+
+                  <button type="button" class="btn btn-secondary btn-sm" id="logout">Logout</button>
+                <script src="/js/logout.js"></script>
+
+                {{else}}
+
+                <a type="button" class="btn btn-secondary btn-sm" href="/login">Login</a>
+                
+                <a type="button" class="btn btn-secondary btn-sm" href="/signup">SignUp</a>
+                {{/if}}
+            </nav>
+
         </div>
     </nav>
 
     <header>
         <h1>Welcome to the blog!</h1>
     </header>
-    <!--login logout button-->
-    
 
     <!--main content-->
     <main>
@@ -48,7 +55,5 @@
     <script src="./public/js/logout.js"></script>
     {{/if}}
 </body>
-<footer>
-    Thanks for visiting One Stop Devs!
-</footer>
+
 </html>
