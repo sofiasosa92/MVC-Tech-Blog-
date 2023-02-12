@@ -16,7 +16,9 @@
 * [Questions?](#questions)
 
 ### Description:
-For this week's challenge I 
+For challenge 14 i created a simple MVC (Model-View-Controller) based technology blog project. The aim of this project is to provide a platform for writing and sharing technology related articles. The blog allows users to create, read, update, and delete articles in a clean and user-friendly interface.
+
+This project uses the Node.js and Express web framework.
 
 ### Screenshot:
 
@@ -28,15 +30,23 @@ For this week's challenge I
 
 ### Usage:
 
-To install:
+To use:
 
-```npm init ```
+1. Clone this repository
+$ git clone https://github.com/sofiasosa92/mvc-tech-blog.git
+2. Copy code
+$ git clone https://github.com/[YOUR-USERNAME]/mvc-tech-blog.git
+3. Install dependencies
+```npm install```
+Copy code
+$ npm install
+4. Start the application
+ruby
+Copy code
+$ npm start
+Open the browser and go to http://localhost:3000/ to see the application running.
 
-```npm install mysql2 ```
 
-```npm install sequelize ```
-
-```npm install dotenv ```
 
 
 Commands to run at the root of your project:
