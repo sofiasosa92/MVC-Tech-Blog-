@@ -30,16 +30,17 @@ This project uses the Node.js and Express web framework.
 
 ### Usage:
 
-To use:
 
-1. Clone this repository
+Clone this repository
 
-$ git clone https://github.com/sofiasosa92/mvc-tech-blog.git
+ ```git clone https://github.com/sofiasosa92/mvc-tech-blog.git```
 
-2. Install dependencies
+Install dependencies
+
 ```npm install```
 
-3. Start the application
+Start the application
+
 ```npm start```
 
 Open the browser and go to http://localhost:3001/ to see the application running.
@@ -49,22 +50,9 @@ Open the browser and go to http://localhost:3001/ to see the application running
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://www.javascript.com/)
 
-[![Heroku]
+[![Heroku](https://img.shields.io/badge/-Heroku-430098?logo=heroku&logoColor=white&style=for-the-badge)](https://heroku.com/)
 
 [![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=ffffff)](https://insomnia.rest/) 
-
-
-
-
-npm packages:
-
-[![Nodemon]
-
-[![bcrypt]
-
-connect-session-sequelize
-express-handlebars
-express-session
 
 [![ExpressJS Badge](https://img.shields.io/badge/-Express.JS-ff781f?style=for-the-badge&labelColor=black&logo=express&logoColor=FF781F)](#)
 
@@ -74,13 +62,7 @@ express-session
 
 [![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=4682B4)](https://www.npmjs.com/package/mysql2)
 
-
-
-
-
-
-
-
+[![Nodemon]
 
 
 ### Questions?:
