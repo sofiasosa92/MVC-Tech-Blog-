@@ -33,23 +33,16 @@ This project uses the Node.js and Express web framework.
 To use:
 
 1. Clone this repository
+
 $ git clone https://github.com/sofiasosa92/mvc-tech-blog.git
-2. Copy code
-$ git clone https://github.com/[YOUR-USERNAME]/mvc-tech-blog.git
-3. Install dependencies
+
+2. Install dependencies
 ```npm install```
-Copy code
-$ npm install
-4. Start the application
-ruby
-Copy code
-$ npm start
-Open the browser and go to http://localhost:3000/ to see the application running.
 
+3. Start the application
+```npm start```
 
-
-
-Commands to run at the root of your project:
+Open the browser and go to http://localhost:3001/ to see the application running.
 
 
 ### Technology used:
