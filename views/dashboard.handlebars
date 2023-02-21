@@ -1,6 +1,6 @@
 
-<section>
-    <h1>Create New Post</h1>
+{{!-- <section>
+    <h1>Create New Post</h1> --}}
 
 {{!-- <section class="new-post-section">
     <a href="/dashboard/new"><button type="button" class="btn btn-secondary btn-md" id="new-post">+ Create New Post</button></a>
@@ -8,7 +8,10 @@
 </form>
 <br> --}}
 
-    <form class="new-post-section">
+
+
+
+    {{!-- <form class="new-post-section">
         <div>
             <label for="post-title"></label> Title</label>
             <input type="text" id="post-title" name="post-title"/>
@@ -19,18 +22,21 @@
         </div>
         <button type="button" class="btn btn-secondary btn-md" id="new-post">+ Create New Post</button>
     </form>
-</section>
+</section> --}}
 
+{{#if posts.length}}
 <br>
  <h3>Your Posts:</h3>
-{{#if posts.length}}
    
     <ul class="post-list">
         {{#each posts as |post|}}
         <li>
             {{> post-info post}}
-            <a href="/dashboard/edit/{{post.id}}" class="edit-link">edit post</a>
         </li>
         {{/each}}
     </ul>
 {{/if}}
+
+<br>
+<button type="submit" class="btn btn-secondary btn-md" id="new-post"><a href="/dashboard/new">Add New Post</a></button>
+
