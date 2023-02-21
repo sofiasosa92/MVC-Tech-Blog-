@@ -17,7 +17,7 @@ async function signupFormHandler(event) {
         });
 
         if(response.ok) {
-           location.href="/"
+           location.location.replace('/dashboard');
         } else {
             alert(response.statusText);
         }

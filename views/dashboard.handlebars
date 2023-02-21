@@ -1,17 +1,30 @@
 
+<section>
+    <h1>Create New Post</h1>
 
+{{!-- <section class="new-post-section">
+    <a href="/dashboard/new"><button type="button" class="btn btn-secondary btn-md" id="new-post">+ Create New Post</button></a>
+</section>
+</form>
+<br> --}}
 
-<section class="new-post-section">
-<a href="/dashboard/new"><button type="button" class="btn btn-secondary btn-md" id="new-post">Add Post</button></a>
+    <form class="new-post-section">
+        <div>
+            <label for="post-title"></label> Title</label>
+            <input type="text" id="post-title" name="post-title"/>
+        </div>
+        <div>
+            <label for="post-text">Text</label>
+            <textarea id="post-text" name="post-text"></textarea>
+        </div>
+        <button type="button" class="btn btn-secondary btn-md" id="new-post">+ Create New Post</button>
+    </form>
 </section>
 
-<h2>Dashboard</h2>
-
-<h3>Your Posts:</h3>
-
+<br>
+ <h3>Your Posts:</h3>
 {{#if posts.length}}
-
-<section>
+   
     <ul class="post-list">
         {{#each posts as |post|}}
         <li>
@@ -20,31 +33,4 @@
         </li>
         {{/each}}
     </ul>
-</section>
-
 {{/if}}
-
-<script src="/js/create-post.js"></script>
-
-
-
-{{!-- 
-<h2 class="title pb-4">Dashboard</h2>
-<h3>Your Posts:</h3>
-    
-
-{{#if posts.length}}
-</div>
-
-    {{#each posts as |post|}}
-    {{> post-info post}}
-
-    <a href="/dashboard/edit/{{post.id}}"><button class="button mb-5 ml-5">edit post</button></a>
-</div>
-{{/each}}
-
-{{else}}
-
-<h5 class="pb-4 has-text-centered">You currently dont have any post!</h5>
-
-{{/if}} --}}
