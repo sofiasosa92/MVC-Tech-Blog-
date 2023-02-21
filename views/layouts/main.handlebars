@@ -14,16 +14,23 @@
 </head>
 
 <body class="bg-light">
-   
+
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/"> <h1>One Stop Devs</h1></a>
-             <header>
-        <h5>Welcome to the blog!</h5>
-    </header>
+            <a class="navbar-brand" href="/">
+                <h1>One Stop Devs</h1>
+            </a>
+            <header>
+                <h5>Welcome to the blog!</h5>
+                <style>
+                    h5 {
+                        color: white;
+                    }
+                </style>
+            </header>
             <nav>
-                
+
                 <a type="button" class="btn btn-secondary btn-md" href="/">Home</a>
 
                 {{#if loggedIn}}
@@ -31,12 +38,12 @@
                 <a type="button" class="btn btn-secondary btn-md" href="/dashboard/">Dashboard</a>
 
 
-                 <a type="button" class="btn btn-secondary btn-md" id="logout">Logout</a>
+                <a type="button" class="btn btn-secondary btn-md" id="logout">Logout</a>
 
                 {{else}}
 
                 <a type="button" class="btn btn-secondary btn-md" href="/login">Login</a>
-                
+
                 <a type="button" class="btn btn-secondary btn-md" href="/signup">SignUp</a>
                 {{/if}}
             </nav>
@@ -45,10 +52,19 @@
     </nav>
 
     <!--main content-->
+    <br>
     <main>
-        <div class="posts">
-            {{{body}}}
+        <div class="card w-auto p-3">
+            <div class="card-body">
+                {{{body}}}
+            </div>
         </div>
+        <style>
+            .card {
+            margin-left: 50px;
+            margin-right: 50px;
+            }
+        </style>
     </main>
 
     {{#if loggedIn}}
