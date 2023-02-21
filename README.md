@@ -16,7 +16,9 @@
 * [Questions?](#questions)
 
 ### Description:
-For this week's challenge I 
+For challenge 14 i created a simple MVC (Model-View-Controller) based technology blog project. The aim of this project is to provide a platform for writing and sharing technology related articles. The blog allows users to create, read, update, and delete articles in a clean and user-friendly interface.
+
+This project uses the Node.js and Express web framework.
 
 ### Screenshot:
 
@@ -28,40 +30,29 @@ For this week's challenge I
 
 ### Usage:
 
-To install:
 
-```npm init ```
+Clone this repository
 
-```npm install mysql2 ```
+ ```git clone https://github.com/sofiasosa92/mvc-tech-blog.git```
 
-```npm install sequelize ```
+Install dependencies
 
-```npm install dotenv ```
+```npm install```
 
+Start the application
 
-Commands to run at the root of your project:
+```npm start```
+
+Open the browser and go to http://localhost:3001/ to see the application running.
 
 
 ### Technology used:
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://www.javascript.com/)
 
-[![Heroku]
+[![Heroku](https://img.shields.io/badge/-Heroku-430098?logo=heroku&logoColor=white&style=for-the-badge)](https://heroku.com/)
 
 [![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=ffffff)](https://insomnia.rest/) 
-
-
-
-
-npm packages:
-
-[![Nodemon]
-
-[![bcrypt]
-
-connect-session-sequelize
-express-handlebars
-express-session
 
 [![ExpressJS Badge](https://img.shields.io/badge/-Express.JS-ff781f?style=for-the-badge&labelColor=black&logo=express&logoColor=FF781F)](#)
 
@@ -71,13 +62,7 @@ express-session
 
 [![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=4682B4)](https://www.npmjs.com/package/mysql2)
 
-
-
-
-
-
-
-
+[![Nodemon]
 
 
 ### Questions?:
