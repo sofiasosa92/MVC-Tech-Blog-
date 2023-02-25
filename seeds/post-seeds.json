@@ -1,14 +1,14 @@
 
    [ {
-        "title": "Blog Survey",
-        "post_content": "Give me ideas of things I need to update in the blog channel for better user experience."
-    },
-    {
-        "title": "Ideas for a project",
-        "post_content": "What is something you guys would like a tutorial for?"
-    },
-    {
-        "title": "Challenges for develpers",
-        "post_content": "What is one challenge you have faced as a developer?"
-    }
+    "title": "Blog Survey",
+    "post_content": "Give me ideas of things I need to update in the blog channel for better user experience."
+},
+{
+    "title": "Ideas for a project",
+    "post_content": "What is something you guys would like a tutorial for?"
+},
+{
+    "title": "Challenges for develpers",
+    "post_content": "What is one challenge you have faced as a developer?"
+}
 ]
