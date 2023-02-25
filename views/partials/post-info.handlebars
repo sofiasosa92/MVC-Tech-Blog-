@@ -1,3 +1,16 @@
 <div class="card">
-  <h3 class="card-title"><a class="text-info" href="/dashboard/edit/{{post.id}}">{{title}}</a></h3>
+  <style>
+    .card {
+      padding: 30px;
+    }
+  </style>
+  <h2 class="card-title">
+    {{title}}
+  </h2>
+  <p class="fw-bold">Created by {{user.username}}</p>
+  <h4 class="card-text">
+    {{post_content}}
+  </h4>
+
 </div>
+<br>
