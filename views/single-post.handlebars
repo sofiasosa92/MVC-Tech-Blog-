@@ -2,23 +2,29 @@
 <br>
 <br> --}}
 
- {{> post-info post}}
+{{> post-info post}}
 
 {{!-- {{#if loggedIn}} --}}
-<form class="comment-form">
-  <div>
-    <textarea class="ml-5" name="comment-body"></textarea>
-  </div>
 
-  <div>
-    <input class="btn btn-secondary btn-sm" value="add comment" type="submit">
-  </div>
-  
-</form>
 {{!-- {{/if}} --}}
 
 {{> comments post.comments}}
 
 {{!-- {{#if loggedIn}} --}}
 <script src="/js/add-comment.js"></script>
-{{!-- {{/if}}   --}}
+{{!-- {{/if}} --}}
+
+<div class="row justify-content-center">
+  <div class="col-md-10">
+    <div class="form-group">
+      <label for="textEntry"></label>
+      <textarea name="post-body" class="form-control" id="textEntry" rows="3" placeholder="Enter content"></textarea>
+      <br>
+      <div>
+        <input class="btn btn-secondary btn-sm" value="add comment" type="submit">
+      </div>
+    </div>
+    </form>
+  </div>
+</div>
+</div>

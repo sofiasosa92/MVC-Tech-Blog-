@@ -1,10 +1,15 @@
 {{#if posts.length}}
 <br>
 <h3>Your Posts:</h3>
-<br>
 {{#each posts as |post|}}
 
 <ol class="list-group list-group-numbered">
+    <style>
+        .list-group-item {
+            font-size: 20px;
+            border-radius: 8px;
+        }
+    </style>
     <li class="list-group-item"><a href="/post/{{post.id}}">{{post.title}}</li>
 </ol>
 
