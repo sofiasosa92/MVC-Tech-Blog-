@@ -21,6 +21,29 @@ For challenge 14 i created a simple MVC (Model-View-Controller) based technology
 This project uses the Node.js and Express web framework.
 
 ### Screenshot:
+#### Homepage of the blog
+<img width="450" height="300" alt="Screen Shot 2023-02-25 at 4 48 21 PM" src="https://user-images.githubusercontent.com/115671262/221383472-4d96a1ef-d49c-4ed3-8d96-310d56ee4234.png"> 
+
+#### Homepage login
+<img width="450" height="300" alt="Screen Shot 2023-02-25 at 4 48 59 PM" src="https://user-images.githubusercontent.com/115671262/221383494-cb54a782-7c85-4cef-8ab2-18ff62a5ada5.png">
+
+
+
+#### User Dashboard
+<img width="450" height="300" alt="Screen Shot 2023-02-25 at 4 49 31 PM" src="https://user-images.githubusercontent.com/115671262/221383493-149a0acb-ed8c-4c22-b61c-847e084fbbfc.png">
+
+#### To add a new post
+<img width="450" height="300" alt="Screen Shot 2023-02-25 at 4 51 35 PM" src="https://user-images.githubusercontent.com/115671262/221383490-667922b4-ed27-4a07-8d3d-cd6b7cb10105.png">
+
+#### To add a comment
+<img width="450" height="300" alt="Screen Shot 2023-02-25 at 4 53 43 PM" src="https://user-images.githubusercontent.com/115671262/221383786-4c2dec70-2c23-41f5-aab0-93a8ad07c083.png">
+
+#### Display of a comment on post 
+<img width="450" height="300" alt="Screen Shot 2023-02-25 at 4 53 56 PM" src="https://user-images.githubusercontent.com/115671262/221383498-eb2ac511-76fc-4e76-9c3c-f95fffae533b.png">
+
+#### User Dashboard with posts made
+<img width="450" height="300" alt="Screen Shot 2023-02-25 at 5 07 02 PM" src="https://user-images.githubusercontent.com/115671262/221383658-be76bdd7-312e-4331-bb91-7d6421db5a73.png">
+
 
 ### Video Demo:
 
@@ -50,8 +73,6 @@ Open the browser and go to http://localhost:3001/ to see the application running
 
 [![Heroku](https://img.shields.io/badge/-Heroku-430098?logo=heroku&logoColor=white&style=for-the-badge)](https://heroku.com/)
 
-[![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=ffffff)](https://insomnia.rest/) 
-
 [![ExpressJS Badge](https://img.shields.io/badge/-Express.JS-ff781f?style=for-the-badge&labelColor=black&logo=express&logoColor=FF781F)](#)
 
 [![.ENV](https://img.shields.io/badge/.ENV-000000?style=for-the-badge&logo=.env&logoColor=F7DF1E)](https://www.dotenv.org/)
@@ -59,8 +80,6 @@ Open the browser and go to http://localhost:3001/ to see the application running
 [![MySQL2](https://img.shields.io/badge/MySQL2-4682B4?style=for-the-badge&logo=mysql&logoColor=FFFFFF)](https://www.npmjs.com/package/mysql2) 
 
 [![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=4682B4)](https://www.npmjs.com/package/mysql2)
-
-[![Nodemon]
 
 
 ### Questions?:
