@@ -8,15 +8,15 @@
           <h4>Create New Post</h4>
         </div>
         <div class="card-body">
-          <form>
+          <form class="new-post-form">
             <div class="form-group">
               <label for="title"></label>
-              <input type="text" class="form-control" id="title" aria-describedby="titleHelp" placeholder="Enter title">
+              <input name= "post-title" type="text" class="form-control" id="title" aria-describedby="titleHelp" placeholder="Enter title">
             <div class="form-group">
               <label for="textEntry"></label>
-              <textarea class="form-control" id="textEntry" rows="3" placeholder="Enter content"></textarea>
+              <textarea name="post-body" class="form-control" id="textEntry" rows="3" placeholder="Enter content"></textarea>
             </div>
-            <a type="submit" class="btn btn-secondary btn-md" href="">Create</a>
+            <input type="submit" class="btn btn-secondary btn-md" value="create">
           </form>
         </div>
       </div>

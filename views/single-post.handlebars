@@ -4,21 +4,21 @@
 
  {{> post-info post}}
 
-{{#if loggedIn}}
+{{!-- {{#if loggedIn}} --}}
 <form class="comment-form">
   <div>
     <textarea class="ml-5" name="comment-body"></textarea>
   </div>
 
   <div>
-    <button type="button" class="btn btn-secondary btn-sm" type="submit">add comment</button>
+    <input class="btn btn-secondary btn-sm" value="add comment" type="submit">
   </div>
   
 </form>
-{{/if}}
+{{!-- {{/if}} --}}
 
 {{> comments post.comments}}
 
-{{#if loggedIn}}
+{{!-- {{#if loggedIn}} --}}
 <script src="/js/add-comment.js"></script>
-{{/if}}  
+{{!-- {{/if}}   --}}
