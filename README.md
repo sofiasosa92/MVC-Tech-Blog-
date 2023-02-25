@@ -22,8 +22,6 @@ This project uses the Node.js and Express web framework.
 
 ### Screenshot:
 
-
-
 ### Video Demo:
 
 * [DEMO ]()

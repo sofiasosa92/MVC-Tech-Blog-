@@ -4,6 +4,7 @@ const sequelize = require('../config/connection');
 class Comment extends Model {}
 
 Comment.init(
+  //to create the comment model
   {
     id: {
       type: DataTypes.INTEGER,
@@ -19,7 +20,8 @@ Comment.init(
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
-    //username
+
+    //username of the user who created the comment
     user_id: {
       type: DataTypes.INTEGER,
       references: {
