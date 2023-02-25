@@ -1,42 +1,19 @@
-
-{{!-- <section>
-    <h1>Create New Post</h1> --}}
-
-{{!-- <section class="new-post-section">
-    <a href="/dashboard/new"><button type="button" class="btn btn-secondary btn-md" id="new-post">+ Create New Post</button></a>
-</section>
-</form>
-<br> --}}
-
-
-
-
-    {{!-- <form class="new-post-section">
-        <div>
-            <label for="post-title"></label> Title</label>
-            <input type="text" id="post-title" name="post-title"/>
-        </div>
-        <div>
-            <label for="post-text">Text</label>
-            <textarea id="post-text" name="post-text"></textarea>
-        </div>
-        <button type="button" class="btn btn-secondary btn-md" id="new-post">+ Create New Post</button>
-    </form>
-</section> --}}
-
 {{#if posts.length}}
 <br>
- <h3>Your Posts:</h3>
-   
-    <ul class="post-list">
-        {{#each posts as |post|}}
-        <li>
-            {{> post-info post}}
-        </li>
-        {{/each}}
-    </ul>
+<h3>Your Posts:</h3>
+<br>
+{{#each posts as |post|}}
+
+<ol class="list-group list-group-numbered">
+    <li class="list-group-item"><a href="/post/{{post.id}}">{{post.title}}</li>
+</ol>
+
+<br>
+
+{{!-- {{> post-info post}} --}}
+
+{{/each}}
 {{/if}}
 
 <br>
 <a type="submit" class="btn btn-secondary btn-md" id="new-post" href="/dashboard/new">Add New Post</a>
-
