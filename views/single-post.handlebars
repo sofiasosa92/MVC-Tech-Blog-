@@ -7,21 +7,14 @@
 
 {{> comments post.comments}}
 
+<form class="comment-form">
+  <div class="form-group">
+    <label for="textEntry"></label>
+    <textarea name="comment-body" class="form-control" id="textEntry" rows="3" placeholder="Enter content"></textarea>
+  </div>
+  <input type="submit" class="btn btn-secondary btn-md" value="add comment">
+</form>
+
 {{!-- {{#if loggedIn}} --}}
 <script src="/js/add-comment.js"></script>
 {{!-- {{/if}} --}}
-
-<div class="row justify-content-center">
-  <div class="col-md-10">
-    <div class="form-group">
-      <label for="textEntry"></label>
-      <textarea name="post-body" class="form-control" id="textEntry" rows="3" placeholder="Enter content"></textarea>
-      <br>
-      <div>
-        <input class="btn btn-secondary btn-sm" value="add comment" type="submit">
-      </div>
-    </div>
-    </form>
-  </div>
-</div>
-</div>
