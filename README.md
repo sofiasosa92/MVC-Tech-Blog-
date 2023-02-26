@@ -23,7 +23,7 @@ This project uses the Node.js and Express web framework.
 
 ### Screenshot:
 #### Homepage of the blog
-<img width="450" height="300" alt="Screen Shot 2023-02-25 at 4 48 21 PM" src="https://user-images.githubusercontent.com/115671262/221383472-4d96a1ef-d49c-4ed3-8d96-310d56ee4234.png"> 
+<img width="600" height="400" alt="Screen Shot 2023-02-25 at 4 48 21 PM" src="https://user-images.githubusercontent.com/115671262/221383472-4d96a1ef-d49c-4ed3-8d96-310d56ee4234.png"> 
 
 #### Homepage login
 <img width="600" height="400" alt="Screen Shot 2023-02-25 at 8 08 29 PM" src="https://user-images.githubusercontent.com/115671262/221388396-71322b83-9692-420f-8f78-d740d4f2be39.png">
