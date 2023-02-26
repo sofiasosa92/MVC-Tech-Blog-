@@ -58,7 +58,7 @@ Install dependencies
 
 Start the application
 
-```npm start```
+```npm run start```
 
 Open the browser and go to http://localhost:3001/ to see the application running.
 
