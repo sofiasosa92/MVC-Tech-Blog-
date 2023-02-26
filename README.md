@@ -20,17 +20,17 @@ For challenge 14 i created a simple MVC (Model-View-Controller) based technology
 
 This project uses the Node.js and Express web framework.
 
+
 ### Screenshot:
 #### Homepage of the blog
 <img width="450" height="300" alt="Screen Shot 2023-02-25 at 4 48 21 PM" src="https://user-images.githubusercontent.com/115671262/221383472-4d96a1ef-d49c-4ed3-8d96-310d56ee4234.png"> 
 
 #### Homepage login
-<img width="450" height="300" alt="Screen Shot 2023-02-25 at 4 48 59 PM" src="https://user-images.githubusercontent.com/115671262/221383494-cb54a782-7c85-4cef-8ab2-18ff62a5ada5.png">
-
-
+<img width="450" height="300" alt="Screen Shot 2023-02-25 at 8 08 29 PM" src="https://user-images.githubusercontent.com/115671262/221388396-71322b83-9692-420f-8f78-d740d4f2be39.png">
 
 #### User Dashboard
-<img width="450" height="300" alt="Screen Shot 2023-02-25 at 4 49 31 PM" src="https://user-images.githubusercontent.com/115671262/221383493-149a0acb-ed8c-4c22-b61c-847e084fbbfc.png">
+<img width="450" height="300"  alt="Screen Shot 2023-02-25 at 8 10 08 PM" src="https://user-images.githubusercontent.com/115671262/221388433-94d8fd97-4e38-414a-ab6a-48c31f9d47b9.png">
+
 
 #### To add a new post
 <img width="450" height="300" alt="Screen Shot 2023-02-25 at 4 51 35 PM" src="https://user-images.githubusercontent.com/115671262/221383490-667922b4-ed27-4a07-8d3d-cd6b7cb10105.png">
@@ -39,11 +39,7 @@ This project uses the Node.js and Express web framework.
 <img width="450" height="300" alt="Screen Shot 2023-02-25 at 4 53 43 PM" src="https://user-images.githubusercontent.com/115671262/221383786-4c2dec70-2c23-41f5-aab0-93a8ad07c083.png">
 
 #### Display of a comment on post 
-<img width="450" height="300" alt="Screen Shot 2023-02-25 at 4 53 56 PM" src="https://user-images.githubusercontent.com/115671262/221383498-eb2ac511-76fc-4e76-9c3c-f95fffae533b.png">
-
-#### User Dashboard with posts made
-<img width="450" height="300" alt="Screen Shot 2023-02-25 at 5 07 02 PM" src="https://user-images.githubusercontent.com/115671262/221383658-be76bdd7-312e-4331-bb91-7d6421db5a73.png">
-
+<img width="450" height="300" alt="Screen Shot 2023-02-25 at 8 13 07 PM" src="https://user-images.githubusercontent.com/115671262/221388500-5eff4a19-ae98-485f-917d-0542dc13370a.png">
 
 ### Video Demo:
 
