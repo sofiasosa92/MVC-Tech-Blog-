@@ -1,4 +1,5 @@
-<div class="card">
+
+<div class="card ">
   <style>
     .card {
       padding: 30px;
@@ -7,9 +8,8 @@
   <h2 class="card-title">
     {{title}}
   </h2>
-  <p class="fw-bold">Created by {{user.username}}</p>
+  <p class="fw-bold">Created by {{user.username}} on {{format_date created_at}}</p>
   <h4 class="card-text">
     {{post_content}}
   </h4>
-<br>
-
+</div>

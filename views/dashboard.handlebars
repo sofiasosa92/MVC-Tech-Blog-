@@ -10,7 +10,11 @@
             border-radius: 8px;
         }
     </style>
-    <li class="list-group-item"><a href="/post/{{post.id}}">{{post.title}}</li>
+    <li class="list-group-item"><a href="/post/{{post.id}}">{{post.title}}
+    <br>
+    <a href="/api/posts/{{post.id}}" class="btn btn-secondary btn-sm">Edit Post</a>
+    </li>
+    
 </ol>
 
 <br>
