@@ -26,20 +26,20 @@ This project uses the Node.js and Express web framework.
 <img width="450" height="300" alt="Screen Shot 2023-02-25 at 4 48 21 PM" src="https://user-images.githubusercontent.com/115671262/221383472-4d96a1ef-d49c-4ed3-8d96-310d56ee4234.png"> 
 
 #### Homepage login
-<img width="450" height="300" alt="Screen Shot 2023-02-25 at 8 08 29 PM" src="https://user-images.githubusercontent.com/115671262/221388396-71322b83-9692-420f-8f78-d740d4f2be39.png">
+<img width="600" height="400" alt="Screen Shot 2023-02-25 at 8 08 29 PM" src="https://user-images.githubusercontent.com/115671262/221388396-71322b83-9692-420f-8f78-d740d4f2be39.png">
 
 #### User Dashboard
-<img width="450" height="300"  alt="Screen Shot 2023-02-25 at 8 10 08 PM" src="https://user-images.githubusercontent.com/115671262/221388433-94d8fd97-4e38-414a-ab6a-48c31f9d47b9.png">
+<img width="600" height="400"  alt="Screen Shot 2023-02-25 at 8 10 08 PM" src="https://user-images.githubusercontent.com/115671262/221388433-94d8fd97-4e38-414a-ab6a-48c31f9d47b9.png">
 
 
 #### To add a new post
-<img width="450" height="300" alt="Screen Shot 2023-02-25 at 4 51 35 PM" src="https://user-images.githubusercontent.com/115671262/221383490-667922b4-ed27-4a07-8d3d-cd6b7cb10105.png">
+<img width="600" height="400" alt="Screen Shot 2023-02-25 at 4 51 35 PM" src="https://user-images.githubusercontent.com/115671262/221383490-667922b4-ed27-4a07-8d3d-cd6b7cb10105.png">
 
 #### To add a comment
-<img width="450" height="300" alt="Screen Shot 2023-02-25 at 4 53 43 PM" src="https://user-images.githubusercontent.com/115671262/221383786-4c2dec70-2c23-41f5-aab0-93a8ad07c083.png">
+<img width="600" height="400" alt="Screen Shot 2023-02-25 at 4 53 43 PM" src="https://user-images.githubusercontent.com/115671262/221383786-4c2dec70-2c23-41f5-aab0-93a8ad07c083.png">
 
 #### Display of a comment on post 
-<img width="450" height="300" alt="Screen Shot 2023-02-25 at 8 13 07 PM" src="https://user-images.githubusercontent.com/115671262/221388500-5eff4a19-ae98-485f-917d-0542dc13370a.png">
+<img width="600" height="400" alt="Screen Shot 2023-02-25 at 8 13 07 PM" src="https://user-images.githubusercontent.com/115671262/221388500-5eff4a19-ae98-485f-917d-0542dc13370a.png">
 
 ### Video Demo:
 
