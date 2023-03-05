@@ -1,7 +1,6 @@
 {{!--edit post handlebar--}}
 
-
-  <div class="edit-post-form">
+    <div class="edit-post-form">
     <h2>Edit Post</h2>
     <form class="edit-post-form">
       <div>
@@ -10,7 +9,7 @@
       </div>
       <div>
         <label for="post-text">Post Content:</label>
-        <textarea name="post-text" id="post-text">{{post.post_text}} </textarea>
+        <textarea name="post-text" id="post-text">{{post.post_content}} </textarea>
       </div>
 
       <button type="submit" class="btn btn-secondary btn-md">Update Post</button>
@@ -21,6 +20,7 @@
 
   <script src="/js/edit-post.js"></script>
   <script src="/js/delete-post.js"></script>
+
 
 
 

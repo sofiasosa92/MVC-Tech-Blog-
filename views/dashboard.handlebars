@@ -12,7 +12,11 @@
     </style>
     <li class="list-group-item"><a href="/post/{{post.id}}">{{post.title}}
     <br>
-    <a href="/api/posts/{{post.id}}" class="btn btn-secondary btn-sm">Edit Post</a>
+   
+
+
+    {{!-- <button class="btn btn-primary" type=".edit-post-form">edit post</button> --}}
+    <a href="/edit/{{post.id}}" class="btn btn-secondary btn-sm">Edit Post</a>
     </li>
     
 </ol>
