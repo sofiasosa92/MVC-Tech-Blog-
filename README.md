@@ -7,7 +7,7 @@
     
 * [Description](#Description)
 * [Screenshot](#ScreenShot)
-* [Video Demo](#Video)
+* [Demo](#Video)
 * [Deployment](#Deployment)
 * [Usage](#usageInfo)
 * [Technology](#Technology)
