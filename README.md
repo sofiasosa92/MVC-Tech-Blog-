@@ -8,7 +8,7 @@
 * [Description](#Description)
 * [Screenshot](#Screenshot)
 * [Demo](#Demo)
-* [Deployment](#Deploymentlink)
+* [Deployment](#Link)
 * [Usage](#usageInfo)
 * [Technology](#Technology)
 * [Link](#link)
@@ -47,7 +47,7 @@ This project uses the Node.js and Express web framework.
 
 https://user-images.githubusercontent.com/115671262/222989734-e4b50900-b3da-4b95-9d11-d581788a7b76.mov
 
-### Deployment link:
+### Link:
 https://one-step-devs.herokuapp.com/
 
 ### Usage:
