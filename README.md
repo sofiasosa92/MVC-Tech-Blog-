@@ -6,8 +6,8 @@
 ## Table of Contents:
     
 * [Description](#Description)
-* [Screenshot](#ScreenShot)
-* [Demo](#Video)
+* [Screenshot](#Screenshot)
+* [Demo](#Demo)
 * [Deployment](#Deployment)
 * [Usage](#usageInfo)
 * [Technology](#Technology)
@@ -42,7 +42,7 @@ This project uses the Node.js and Express web framework.
 #### Display of a comment on post 
 <img width="600" height="400" alt="Screen Shot 2023-02-25 at 8 13 07 PM" src="https://user-images.githubusercontent.com/115671262/221388500-5eff4a19-ae98-485f-917d-0542dc13370a.png">
 
-### Video Demo:
+### Demo:
 
 
 https://user-images.githubusercontent.com/115671262/222989734-e4b50900-b3da-4b95-9d11-d581788a7b76.mov
