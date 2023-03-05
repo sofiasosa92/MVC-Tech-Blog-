@@ -8,7 +8,7 @@
 * [Description](#Description)
 * [Screenshot](#Screenshot)
 * [Demo](#Demo)
-* [Deployment](#Deployment link)
+* [Deployment](#Deploymentlink)
 * [Usage](#usageInfo)
 * [Technology](#Technology)
 * [Link](#link)
