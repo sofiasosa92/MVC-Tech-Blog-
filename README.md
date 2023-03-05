@@ -9,7 +9,7 @@
 * [Screenshot](#Screenshot)
 * [Demo](#Demo)
 * [Deployment](#Link)
-* [Usage](#usageInfo)
+* [Usage](#Usage)
 * [Technology](#Technology)
 * [Link](#link)
 * [GitHub](#github)
@@ -68,7 +68,7 @@ Start the application
 Open the browser and go to http://localhost:3001/ to see the application running.
 
 
-### Technology used:
+### Technology:
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://www.javascript.com/)
 
