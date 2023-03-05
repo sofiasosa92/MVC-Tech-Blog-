@@ -8,7 +8,7 @@
 * [Description](#Description)
 * [Screenshot](#ScreenShot)
 * [Video Demo](#Video)
-* [Heroku Deployment] (#Deployment)
+* [Deployment](#Deployment)
 * [Usage](#usageInfo)
 * [Technology](#Technology)
 * [Link](#link)
