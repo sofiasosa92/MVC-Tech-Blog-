@@ -12,9 +12,7 @@
 * [Usage](#Usage)
 * [Technology](#Technology)
 * [Link](#link)
-* [GitHub](#github)
-* [Email](#email)
-* [Questions?](#questions)
+* [Questions?](#Questions)
 
 ### Description:
 For challenge 14 i created a simple MVC (Model-View-Controller) based technology blog project. The aim of this project is to provide a platform for writing and sharing technology related articles. The blog allows users to create, read, update, and delete articles in a clean and user-friendly interface.
@@ -84,5 +82,5 @@ Open the browser and go to http://localhost:3001/ to see the application running
 
 
 ### Questions?:
-If you have any questions contact me on [GitHub](https://github.com/undefined) or contact 
+If you have any questions contact me on [GitHub](https://github.com/sofiasosa92) or contact 
 Sofia  at sofiasosaperez@outlook.com  
